@@ -34,5 +34,6 @@ Los registros y las categorías se separan por usuario en servidor. Las cantidad
 
 ## Estado
 
-Código disponible en https://github.com/dponch-00/BankQK. La publicación web está pendiente; no hay URL de producción verificada. Esta versión requiere un servidor compatible con Cloudflare D1 y la autenticación de Sites; subir el código a GitHub no publica por sí solo una PWA instalable y GitHub Pages no ejecuta estas rutas de servidor. Conserva manifiesto, iconos PWA y pantalla sin conexión; aún necesita internet para registrar y consultar. El respaldo JSON se descarga, pero no incluye restauración en esta versión.
+GitHub Pages publica una edición autónoma desde main usando GitHub Actions. La PWA está disponible en https://dponch-00.github.io/BankQK/ y guarda movimientos y categorías en el almacenamiento local del teléfono; no sincroniza entre dispositivos. Después de abrirla una vez con internet, se puede usar sin conexión. En Chrome para Android, abre el enlace y elige Instalar aplicación o Agregar a pantalla principal. Los datos se guardan en el dispositivo; conserva la descarga JSON como respaldo. La vista local de desarrollo sigue usando Cloudflare D1.
+
 
